@@ -1,6 +1,6 @@
-def palindrome(s):
-    res=""
-    for i in s:
+def palindrome(s): # function with input "madam"
+    res="" # empty string
+    for i in s: 
         res = i + res
     if res == s:
         print(f"{i} is palindrome")
@@ -8,5 +8,5 @@ def palindrome(s):
         print(f"{i} is not the plaindrome")            
 
 if __name__ == "__main__":
-    s="madjhjam"
-    palindrome(s)    
+    s="madam" # input
+    palindrome(s)   
