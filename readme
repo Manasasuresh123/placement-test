@@ -1,0 +1,10 @@
+Name :Manasa CS
+language used : Python Programming
+
+Problem 1: Program to create a function that takes array as a input and return the second largest element from the list using loop and conditional statement.
+
+Problem 2:Program that takes string as an input and return whether it is palindrome or not by using loops and split method.
+
+Problem 3:Program that takes string as input as text and return that word that appears most frequest using count and loop.
+
+PRoblem 4:Program that takes list of integer and a target sum as input ans return all the unique pair of elements from the array add up to target by using nested loop and consitional statement. 
