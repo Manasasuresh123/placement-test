@@ -1,0 +1,9 @@
+arr =[1,2,3,4,5,6]
+target = 5
+m=[]
+for i in arr:
+    for j in arr:
+        if i+j == target:
+            h = i,j
+            m.append(h) 
+print(m)               
