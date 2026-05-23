@@ -1,0 +1,13 @@
+
+if __name__ == "__main__":
+    m="cat is the the animal"
+    r = m.split(" ")
+    print(r)
+    res=""
+    count=1
+    for i in r:
+        if i not in res:
+            res = res+i
+        else:
+            count= count+1
+            print(f"the count of {i} is {count}")    
