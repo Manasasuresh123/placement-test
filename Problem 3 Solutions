@@ -1,16 +1,13 @@
-l = [1,2,3,4,5]
-max_no = l[0] # imaginary gretest number
-sec_max = l[4]
-for i in l: # loop to find largest number
-    if i > max_no:
-        max_no = i
-for i in l: # loop to find second largest number
-    if i<max_no:
-        sec_max=i
-print(sec_max)        
-  
 
-
-
-                    
-
+if __name__ == "__main__":
+    m="cat is the the animal" # input
+    r = m.split(" ") # split into words
+    print(r)
+    res=""
+    count=1
+    for i in r:
+        if i not in res:
+            res = res+i
+        else:
+            count= count+1 #finds the no of repetation of words
+            print(f"the count of {i} is {count}")    
