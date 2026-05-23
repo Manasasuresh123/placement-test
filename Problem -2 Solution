@@ -1,0 +1,12 @@
+def palindrome(s):
+    res=""
+    for i in s:
+        res = i + res
+    if res == s:
+        print(f"{i} is palindrome")
+    else:
+        print(f"{i} is not the plaindrome")            
+
+if __name__ == "__main__":
+    s="madjhjam"
+    palindrome(s)    
