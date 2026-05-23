@@ -1,0 +1,11 @@
+l = [1,2,3,4,5]
+max_no = l[0]
+sec_max = l[4]
+for i in l:
+    if i > max_no:
+        max_no = i
+for i in l:
+    if i<max_no:
+        sec_max=i
+print(sec_max)        
+  
