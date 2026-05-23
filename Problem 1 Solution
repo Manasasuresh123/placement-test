@@ -1,11 +1,16 @@
 l = [1,2,3,4,5]
-max_no = l[0]
+max_no = l[0] # imaginary gretest number
 sec_max = l[4]
-for i in l:
+for i in l: # loop to find largest number
     if i > max_no:
         max_no = i
-for i in l:
+for i in l: # loop to find second largest number
     if i<max_no:
         sec_max=i
 print(sec_max)        
   
+
+
+
+                    
+
